@@ -194,3 +194,6 @@ fn extend_instance_ttl(env: &Env) {
         .instance()
         .extend_ttl(INSTANCE_TTL_THRESHOLD, INSTANCE_TTL_EXTEND_TO);
 }
+
+#[cfg(test)]
+mod test;
